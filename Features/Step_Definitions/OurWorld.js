@@ -1,6 +1,8 @@
-const { BeforeAll, Given, Then, AfterAll } = require('cucumber');
+const { BeforeAll, Given, Then, AfterAll } = require('@cucumber/cucumber');
 const { chromium } = require('playwright');
-const { setDefaultTimeout } = require('cucumber');
+const { setDefaultTimeout } = require('@cucumber/cucumber');
+
+
 
 let browser;
 let context

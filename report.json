@@ -1,0 +1,77 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "google-typein;hyperion-homepage",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Hyperion HomePage",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "Deschid URL-ul www.hyperion.ro",
+            "match": {
+              "location": "features\\TesteFunctionale\\Stepdefinitions\\metode.js:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4880000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Ar trebui sa fie afisata pagina Home",
+            "match": {
+              "location": "features\\TesteFunctionale\\Stepdefinitions\\metode.js:42"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4027000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "Verific daca banner-ul hyperion homepage este afisat",
+            "match": {
+              "location": "features\\TesteFunctionale\\Stepdefinitions\\metode.js:49"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 29000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@mytag",
+            "line": 1
+          },
+          {
+            "name": "@mytag2",
+            "line": 10
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "google-typein",
+    "line": 3,
+    "keyword": "Feature",
+    "name": "Google Typein",
+    "tags": [
+      {
+        "name": "@mytag",
+        "line": 1
+      }
+    ],
+    "uri": "features\\TesteFunctionale\\Stepdefinitions\\teste.feature"
+  }
+]
